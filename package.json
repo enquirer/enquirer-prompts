@@ -1,0 +1,79 @@
+{
+  "name": "enquirer-prompts",
+  "description": "Enquirer plugin that adds all of the core prompt types.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/enquirer-prompts",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/enquirer-prompts",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/enquirer-prompts/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "answer",
+    "answers",
+    "ask",
+    "checkbox",
+    "choice",
+    "cli",
+    "command",
+    "enquirerprompt",
+    "input",
+    "inquire",
+    "inquirer",
+    "interact",
+    "list",
+    "menu",
+    "password",
+    "prompt",
+    "prompts",
+    "question",
+    "readline",
+    "stdin",
+    "stdout",
+    "terminal",
+    "tty",
+    "ui"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme",
+      "enquirer-prompt-checkbox",
+      "enquirer-prompt-confirm",
+      "enquirer-prompt-expand",
+      "enquirer-prompt-input",
+      "enquirer-prompt-list",
+      "enquirer-prompt-password",
+      "enquirer-prompt-rawlist"
+    ]
+  }
+}
