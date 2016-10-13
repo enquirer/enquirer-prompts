@@ -73,6 +73,7 @@
       "reflinks": true
     },
     "reflinks": [
+      "enquirer",
       "verb"
     ]
   }
