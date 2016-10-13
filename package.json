@@ -1,17 +1,16 @@
 {
   "name": "enquirer-prompts",
-  "description": "Enquirer plugin that adds all of the core prompt types.",
+  "description": "Plugin that adds a number of common prompt types to Enquirer",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/enquirer-prompts",
+  "homepage": "https://github.com/enquirer/enquirer-prompts",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/enquirer-prompts",
+  "repository": "enquirer/enquirer-prompts",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/enquirer-prompts/issues"
+    "url": "https://github.com/enquirer/enquirer-prompts/issues"
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "LICENSE"
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
@@ -19,6 +18,20 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "prompt-autocompletion": "^0.1.0",
+    "prompt-checkbox": "^0.3.2",
+    "prompt-confirm": "^0.2.0",
+    "prompt-editor": "^0.1.0",
+    "prompt-expand": "^0.1.0",
+    "prompt-list": "^0.1.0",
+    "prompt-password": "^0.1.0",
+    "prompt-radio": "^0.3.0",
+    "prompt-rawlist": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10"
   },
   "keywords": [
     "answer",
@@ -28,6 +41,7 @@
     "choice",
     "cli",
     "command",
+    "enquirer",
     "enquirerprompt",
     "input",
     "inquire",
@@ -46,9 +60,6 @@
     "tty",
     "ui"
   ],
-  "devDependencies": {
-    "gulp-format-md": "^0.1.10"
-  },
   "verb": {
     "toc": false,
     "layout": "default",
@@ -61,19 +72,8 @@
     "lint": {
       "reflinks": true
     },
-    "related": {
-      "list": []
-    },
     "reflinks": [
-      "verb",
-      "verb-generate-readme",
-      "enquirer-prompt-checkbox",
-      "enquirer-prompt-confirm",
-      "enquirer-prompt-expand",
-      "enquirer-prompt-input",
-      "enquirer-prompt-list",
-      "enquirer-prompt-password",
-      "enquirer-prompt-rawlist"
+      "verb"
     ]
   }
 }

@@ -1,11 +1,13 @@
 'use strict';
 
 module.exports = function(enquirer) {
-  enquirer.register('checkbox', require('enquirer-prompt-checkbox'));
-  enquirer.register('confirm', require('enquirer-prompt-confirm'));
-  enquirer.register('expand', require('enquirer-prompt-expand'));
-  enquirer.register('input', require('enquirer-prompt-input'));
-  enquirer.register('list', require('enquirer-prompt-list'));
-  enquirer.register('password', require('enquirer-prompt-password'));
-  enquirer.register('rawlist', require('enquirer-prompt-rawlist'));
+  enquirer.register('autocomplete', require('prompt-autocompletion'));
+  enquirer.register('checkbox', require('prompt-checkbox'));
+  enquirer.register('confirm', require('prompt-confirm'));
+  enquirer.register('editor', require('prompt-editor'));
+  enquirer.register('expand', require('prompt-expand'));
+  enquirer.register('list', require('prompt-list'));
+  enquirer.register('password', require('prompt-password'));
+  enquirer.register('radio', require('prompt-radio'));
+  enquirer.register('rawlist', require('prompt-rawlist'));
 };
