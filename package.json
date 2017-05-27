@@ -1,7 +1,7 @@
 {
   "name": "enquirer-prompts",
   "description": "Plugin that adds a number of common prompt types to Enquirer",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/enquirer/enquirer-prompts",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "enquirer/enquirer-prompts",
@@ -20,18 +20,17 @@
     "test": "mocha"
   },
   "dependencies": {
-    "prompt-autocompletion": "^0.1.1",
-    "prompt-checkbox": "^0.4.1",
-    "prompt-confirm": "^0.2.1",
+    "prompt-checkbox": "^2.0.1",
+    "prompt-confirm": "^1.0.0",
     "prompt-editor": "^0.1.0",
-    "prompt-expand": "^0.1.0",
-    "prompt-list": "^0.1.0",
-    "prompt-password": "^0.1.1",
-    "prompt-radio": "^0.3.0",
-    "prompt-rawlist": "^0.2.0"
+    "prompt-expand": "^1.0.0",
+    "prompt-list": "^2.0.0",
+    "prompt-password": "^1.0.2",
+    "prompt-radio": "^1.0.0",
+    "prompt-rawlist": "^2.0.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.10"
+    "gulp-format-md": "^0.1.12"
   },
   "keywords": [
     "answer",
@@ -71,10 +70,6 @@
     ],
     "lint": {
       "reflinks": true
-    },
-    "reflinks": [
-      "enquirer",
-      "verb"
-    ]
+    }
   }
 }
