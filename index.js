@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = function(enquirer) {
-  enquirer.register('autocomplete', require('prompt-autocompletion'));
   enquirer.register('checkbox', require('prompt-checkbox'));
   enquirer.register('confirm', require('prompt-confirm'));
   enquirer.register('editor', require('prompt-editor'));
